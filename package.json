@@ -1,0 +1,25 @@
+{
+  "name": "nod_03_pug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hyewon95/node_03_pug.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hyewon95/node_03_pug/issues"
+  },
+  "homepage": "https://github.com/Hyewon95/node_03_pug#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "pug": "^3.0.0"
+  }
+}
