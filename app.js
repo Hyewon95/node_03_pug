@@ -5,6 +5,7 @@ const path = require('path');
 
 /* 전역변수 */
 const memberRouter = require('./routes/member'); // 상대경로
+const sqlRouter = require('./routes/sql');
 
 /* 서버 구동 */
 app.listen(3000, () => {console.log('http://127.0.0.1:3000');});
@@ -21,3 +22,4 @@ app.use(express.urlencoded({extended : false}));
 app.use('/', express.static(path.join(__dirname, './public')));
 app.use('/storage', express.static(path.join(__dirname, './uploads')));
 app.use('/member', memberRouter);
+app.use('/sql', sqlRouter);
